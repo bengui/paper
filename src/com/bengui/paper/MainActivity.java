@@ -1,19 +1,20 @@
 package com.bengui.paper;
 
-import android.app.Activity;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.support.v4.view.GestureDetectorCompat;
+import android.support.v7.app.ActionBarActivity;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.widget.EditText;
 import android.widget.Toast;
+
 import com.bengui.paper.models.Note;
 import com.bengui.papper.R;
 
-public class MainActivity extends Activity {
+public class MainActivity extends ActionBarActivity {
 
     private Note note;
     private EditText editText;
